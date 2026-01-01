@@ -1,12 +1,14 @@
-# Emotion Recognition Portfolio Project
+# Emotion Recognition
 
 This project demonstrates a complete end-to-end pipeline for Emotion Recognition using BERT and Streamlit.
 
-## Features
-- **Modular Design**: Structured codebase with separate modules for data loading, preprocessing, modeling, and training.
-- **State-of-the-Art Model**: Utilizes a pre-trained BERT model fine-tuned for multi-label emotion classification.
-- **Interactive UI**: A user-friendly Streamlit application for real-time inference.
-- **Data Visualization**: Visualizes prediction confidence using bar charts.
+## Model
+The project uses `bert-base-uncased` from Hugging Face Transformers. It is fine-tuned to classify text into 5 dominant emotions:
+- Anger
+- Confusion
+- Fear
+- Joy
+- Sadness
 
 ## Directory Structure
 ```
@@ -44,10 +46,7 @@ emotion_recog/
     streamlit run app.py
     ```
 
-## Model
-The project uses `bert-base-uncased` from Hugging Face Transformers. It is fine-tuned to classify text into 5 dominant emotions:
-- Anger
-- Confusion
-- Fear
-- Joy
-- Sadness
+
+
+## Author
+Created by [Rega Madila](https://github.com/RegaMadila)
