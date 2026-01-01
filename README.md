@@ -46,7 +46,3 @@ emotion_recog/
     streamlit run app.py
     ```
 
-
-
-## Author
-Created by [Rega Madila](https://github.com/RegaMadila)
