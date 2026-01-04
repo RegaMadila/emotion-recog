@@ -46,4 +46,4 @@ emotion_recog/
     streamlit run app.py
     ```
 
-tes webhook 2 2
+tes webhook 2
